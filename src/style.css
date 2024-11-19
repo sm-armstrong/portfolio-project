@@ -59,8 +59,19 @@ h1 {
     padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
 h2 {
-  font-size: 64px;
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
 }
 
 p {
@@ -77,8 +88,13 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding-outline:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
 .project-description {
-  padding: 0 30px;
+  padding: 100px 30px;
 }
 
 @media (max-width: 960px) {

@@ -107,6 +107,16 @@ footer .contact-box p {
   margin: 0;
 }
 
+footer .credits {
+  border-top: 2px dashed var(--secondary-color);
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+
+footer .credits a {
+  color: var(--primary-color);
+}
+
 footer .email-link {
   color: black;
   font-size: 24px;
@@ -185,8 +195,8 @@ p {
     padding: 0;
   }
 
-  h1 {
-    font-size: 60px;
+  .hero h1 {
+    font-size: 64px;
   }
 
   h2 {

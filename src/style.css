@@ -1,7 +1,7 @@
 :root {
     --primary-color: #055e68;
     --secondary-color: #ebfffa;
-    /* --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
 
 /* Fonts */
@@ -44,6 +44,7 @@
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -58,6 +59,7 @@
 .btn-branding-outline {
   border: 1px solid var(--primary-color);
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
   color: var(--primary-color);
   font-size: 18px;
   line-height: 27px;
@@ -68,6 +70,12 @@
   background: var(--primary-color);
   color: white;
 }
+
+.contact-page-box {
+  background: var(--secondary-color);
+  border-radius: 10px; 
+  padding: 30px 120px;
+  }
 
 .content {
   margin: 30px;
@@ -98,8 +106,8 @@ footer {
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 30px 120px;
   border-radius: 10px;
+  padding: 30px 120px;
 }
 
 footer .contact-box p {
@@ -110,7 +118,7 @@ footer .contact-box p {
 footer .credits {
   border-top: 2px dashed var(--secondary-color);
   color: rgba(0, 0, 0, 0.7);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 footer .credits a {
@@ -177,6 +185,10 @@ h4 {
 
 .nav-item {
   padding: 0 20px;
+}
+
+.navbar {
+  background-color: var(--secondary-color);
 }
 
 p {
